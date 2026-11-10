@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc65b2da-97a2-4a19-a1ee-3889b4336926" name="Changes" comment="" />
+    <list default="true" id="cc65b2da-97a2-4a19-a1ee-3889b4336926" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/VLM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/venvlauncher.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelling_gemma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelling_siglip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processing_paligemma.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +30,69 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4117955086337866" />
+      <entry key="MS500" value="1.837408080312228" />
+      <entry key="S2" value="1.9921336885054997" />
+      <entry key="S5" value="2.2455697286105436" />
+      <entry key="S10" value="2.504156031325478" />
+      <entry key="S30" value="2.7975617515680677" />
+      <entry key="S60" value="2.8932373113953656" />
+      <entry key="M2" value="2.9451546378958495" />
+      <entry key="M5" value="2.977699982533501" />
+      <entry key="M10" value="2.988788781388667" />
+      <entry key="M15" value="2.992512184758352" />
+      <entry key="M30" value="2.996249240724291" />
+      <entry key="H1" value="2.9981229042714777" />
+      <entry key="H2" value="2.999061022715309" />
+      <entry key="H4" value="2.9995304039527864" />
+      <entry key="D1" value="2.9999217190705627" />
+      <entry key="W1" value="2.999988816644599" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.490221853133873E-24" />
+      <entry key="MS500" value="1.9021624668504287E-5" />
+      <entry key="S2" value="0.06604073559360484" />
+      <entry key="S5" value="0.3372288804947787" />
+      <entry key="S10" value="0.5807141125328181" />
+      <entry key="S30" value="0.834297214261731" />
+      <entry key="S60" value="0.913398715929539" />
+      <entry key="M2" value="0.9557189523754036" />
+      <entry key="M5" value="0.9820465614735242" />
+      <entry key="M10" value="0.9909826242036356" />
+      <entry key="M15" value="0.9939793449500893" />
+      <entry key="M30" value="0.9969851277476958" />
+      <entry key="H1" value="0.998491425976055" />
+      <entry key="H2" value="0.9992454282988014" />
+      <entry key="H4" value="0.9996226429502293" />
+      <entry key="D1" value="0.9999370972673167" />
+      <entry key="W1" value="0.9999910136530712" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.500000000000385" />
+      <entry key="MS500" value="0.873844005549897" />
+      <entry key="S2" value="1.2744967943748007" />
+      <entry key="S5" value="2.066431617055304" />
+      <entry key="S10" value="2.7583972829282297" />
+      <entry key="S30" value="3.5009902046575623" />
+      <entry key="S60" value="3.73784252937914" />
+      <entry key="M2" value="3.865583083055393" />
+      <entry key="M5" value="3.94540850618645" />
+      <entry key="M10" value="3.972564784553145" />
+      <entry key="M15" value="3.9816787123351713" />
+      <entry key="M30" value="3.9908237462160785" />
+      <entry key="H1" value="3.995407963490595" />
+      <entry key="H2" value="3.9977030034482666" />
+      <entry key="H4" value="3.9988512570381998" />
+      <entry key="D1" value="3.9998085088460598" />
+      <entry key="W1" value="3.9999726432882445" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Izb7Q4v403frIEnkplpo5ESxub" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +108,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Projects/VLM",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
